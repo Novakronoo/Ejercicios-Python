@@ -2,7 +2,7 @@
 #Describí, paso a paso, el proceso completo para cruzar una calle con semáforo de forma segura,
 #desde que llegás a la esquina hasta que estás del otro lado.
 #   Variables: Persona, Semaforo
-#   Funciones; Calle
+#   Funciones; Cruzar_calle
 
 persona = input("Ingrese su nombre: ")
 semaforo = input("Ingrese el color del semáforo(rojo, amarillo, verde) :")
