@@ -1,0 +1,31 @@
+PROBLEMA 1: CRUZAR LA CALLE DE FORMA SEGURA
+
+Consigna:
+Describí, paso a paso, el proceso completo para cruzar una calle con
+semáforo de forma segura, desde que llegás a la esquina hasta que estás
+del otro lado.
+
+Entradas:
+Una persona que está por cruzar la calle por la cebra y observa el semáforo.
+
+Salida:
+La persona cruza la calle de forma segura utilizando el semáforo.
+
+Pasos:
+1. Caminar por la vereda hasta llegar a la cebra.
+2. Observar el semáforo.
+3. Esperar a que el semáforo esté en verde.
+4. Mirar hacia ambos lados de la calle.
+5. Cruzar por la cebra cuando esté libre.
+6. Continuar hasta llegar al otro lado.
+
+Decisiones:
+Si se observa un auto cruzando o doblando, esperar hasta que la cebra
+esté libre, aunque el semáforo esté en verde.
+
+Repeticiones:
+Observar el semáforo y mirar hacia ambos lados antes de cruzar.
+
+Caso especial:
+Si el semáforo no funciona, cruzar solamente cuando la cebra esté libre y
+observando siempre hacia ambos lados.

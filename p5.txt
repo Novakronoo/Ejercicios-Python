@@ -1,0 +1,29 @@
+PROBLEMA 5: ORDENAR UNA FILA DE HERRAMIENTAS POR TAMAÑO
+
+Consigna:
+Tenes una fila de herramientas de distintos tamaños y desordenadas.
+Describí un proceso paso a paso para ordenarlas desde la más chica hasta
+la más grande, utilizando únicamente comparaciones de a una por vez.
+
+Entradas: Necesito herramientas desordenadas con tamaños distintos
+
+Salida: Una fila de herramientas ordenadas por tamaño desde mas chica a mas grande usando
+        unicamente comparaciones de a una por vez
+
+Pasos:
+1.Registrar una lista de herramientas por tamaño en cm
+2.Verificar que su tamaño sea valido y en cm
+3.Comparar dos herramientas por vez, avanzando de a una comparación
+4.Ordenar de menor tamaño a mayor en nueva lista llamada herramientas_ordenadas
+5.Verificar orden por tamaño de las herramientas en la lista
+
+Decisiones: Si la herramienta comparada es menor que la otra va primero sino se intercambian
+            las posiciones de las herramientas
+            Si tienen el mismo tamaño, colocarlas juntas
+            Si las herramientas están ordenadas de entrada se finaliza el proceso
+
+Repeticiones: Mientras queden herramientas sin ordenar, comparar la herramienta actual con la
+              siguiente y colocarlas en el orden correcto. Repetir hasta recorrer toda la lista
+
+Caso especial: Si la lista esta vacía no hay herramientas que ordenar y finaliza el programa
+               Si la lista tiene una sola herramienta, ya esta ordenada

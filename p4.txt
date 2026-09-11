@@ -1,0 +1,38 @@
+PROBLEMA 4: ARMAR UNA VALIJA PARA UN VIAJE DE 3 DÍAS
+
+Consigna:
+Describí el proceso completo para preparar una valija para un viaje de
+3 días. Debes elegir qué ropa llevar teniendo en cuenta que el clima puede
+variar entre los días y evitando llevar ropa de más.
+
+Entradas: Necesito una valija, ropa disponible y pronostico(lluvioso, caluroso, frio, templado)
+          del clima para cada uno de los 3 días
+
+Salida: Una valija preparada con ropa adecuada para el clima pronosticado
+
+Pasos:
+1.Ver pronostico de los siguientes 3 días
+2.Elegir valija ( roja(12 slots), azul(14 slots), amarilla(16 slots) )
+3.Elegir muda de ropa ( ropa invierno(4 slots), ropa verano(3 slots)
+                ropa lluvia(4 slots), ropa casual(3 slots)
+                ropa formal(4 slots), ropa deportiva(2 slot))
+4.Asignar una muda de ropa a cada dia según el clima pronosticado
+5.Verificar si los slots de la ropa equiparan o bastan para los slots de valija seleccionada
+6.Verificar que las mudas seleccionadas sean adecuadas para el clima pronosticado para cada dia
+
+Decisiones:- Si el clima es templado, elegir ropa casual.
+           - Si el clima es caluroso, elegir ropa de verano.
+           - Si el clima es frío, elegir ropa de invierno.
+           - Si el clima es lluvioso, agregar ropa de lluvia.
+           - Si la cantidad de slots de la ropa supera al de la valija se le advierte a la persona
+            y se le pide que modifique la ropa.
+
+Repeticiones: Una vez elegidas las 3 mudas, verificar si entran en la valija.
+              Mientras la ropa no entre, quitar o reemplazar prendas hasta que
+              ocupe una cantidad válida de slots.
+              Mientras las mudas no sean adecuadas para el clima pronosticado se le pida a la
+              persona modificar la ropa hasta que esta sea adecuada para el clima pronosticado
+
+Caso especial: En caso de no colocar mudas de ropa se le pedirá a la persona que ingrese
+               las mudas de ropa necesarias
+
