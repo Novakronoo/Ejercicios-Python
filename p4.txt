@@ -12,10 +12,10 @@ Salida: Una valija preparada con ropa adecuada para el clima pronosticado
 
 Pasos:
 1.Ver pronostico de los siguientes 3 días
-2.Elegir valija ( roja(12 slots), azul(14 slots), amarilla(16 slots) )
-3.Elegir muda de ropa ( ropa invierno(4 slots), ropa verano(3 slots)
-                ropa lluvia(4 slots), ropa casual(3 slots)
-                ropa formal(4 slots), ropa deportiva(2 slot))
+2.Elegir valija ( roja(3 mudas), azul(4 mudas), amarilla(5 mudas) )
+3.Elegir muda de ropa ( ropa invierno, ropa verano
+                ropa lluvia, ropa casual
+                ropa formal, ropa deportiva)
 4.Asignar una muda de ropa a cada dia según el clima pronosticado
 5.Verificar si los slots de la ropa equiparan o bastan para los slots de valija seleccionada
 6.Verificar que las mudas seleccionadas sean adecuadas para el clima pronosticado para cada dia
