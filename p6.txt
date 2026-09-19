@@ -5,19 +5,24 @@ Un grupo de amigos fue a comprar para un asado. Cada uno gastó un monto
 Distinto. Al final, todos tienen que terminar habiendo puesto lo mismo.
 Describí el proceso para calcular quién le debe plata a quién, y cuánto.
 
-Entradas:
+Entradas: Un grupo de personas compra un asado gastando un monto distinto cada uno
 
 
-Salida:
+Salida: Cada persona debe haber pagado lo mismo
 
 
 Pasos:
+1.Una lista de personas
+2.Se asigna un gasto a cada persona
+3.Compra del asado
+4.Calcular el total dividido entre las personas
+5.Calcular quien le debe cuanto a quien
 
 
-Decisiones:
+Decisiones: Cada persona decide cuanto poner a antes de comprar el asado
+            A la hora de calcular lo debido, el que menos plata puso es el que mas debe
+
+Repeticiones: El calculo de quien le debe a quien se repite hasta que queden todos pagando lo mismo
 
 
-Repeticiones:
-
-
-Caso especial:
+Caso especial: Si alguien no pone dinero queda debiendo el total de una persona
