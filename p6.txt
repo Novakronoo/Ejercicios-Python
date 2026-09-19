@@ -13,10 +13,12 @@ Salida: Cada persona debe haber pagado lo mismo
 
 Pasos:
 1.Una lista de personas
-2.Se asigna un gasto a cada persona
-3.Compra del asado
-4.Calcular el total dividido entre las personas
-5.Calcular quien le debe cuanto a quien
+2.Una lista de asados
+3.Se asigna una cantidad de asado
+5.Se asigna un gasto a cada persona
+4.Compra del asado
+5.Calcular el total dividido entre las personas
+6.Calcular quien le debe cuanto a quien
 
 
 Decisiones: Cada persona decide cuanto poner a antes de comprar el asado
