@@ -1,0 +1,23 @@
+PROBLEMA 6: DIVIDIR LA CUENTA DE UN ASADO ENTRE AMIGOS
+
+Consigna:
+Un grupo de amigos fue a comprar para un asado. Cada uno gastó un monto
+Distinto. Al final, todos tienen que terminar habiendo puesto lo mismo.
+Describí el proceso para calcular quién le debe plata a quién, y cuánto.
+
+Entradas:
+
+
+Salida:
+
+
+Pasos:
+
+
+Decisiones:
+
+
+Repeticiones:
+
+
+Caso especial:

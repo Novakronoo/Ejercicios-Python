@@ -1,0 +1,34 @@
+PROBLEMA 11: CLASIFICAR EL CORREO ENTRANTE EN CARPETAS
+
+Consigna:
+Llegan correos de distintos tipos: trabajo, personal, promociones, urgente.
+Describí el proceso de decisión para clasificar automáticamente cada correo que
+llega, considerando que un correo podría coincidir con más de una categoría.
+
+Entradas:
+Un correo nuevo con remitente, asunto, contenido y prioridad.
+
+Salida:
+La clasificación del correo en una o más carpetas según corresponda.
+
+Pasos:
+1. Leer el correo entrante.
+2. Revisar el remitente y el contenido.
+3. Evaluar si el correo es de trabajo, personal, promoción o urgente.
+4. Si coincide con más de una categoría, asignar todas las que correspondan.
+5. Mover el correo a la carpeta adecuada.
+6. Si es urgente, marcarlo con prioridad alta.
+7. Finalizar la clasificación.
+
+Decisiones:
+Si el correo viene de una persona de trabajo, va a la carpeta de trabajo.
+Si contiene promociones, también puede entrar en la carpeta de promociones.
+Si tiene un título o contenido urgente, además se marca como urgente.
+
+Repeticiones:
+Repetir la clasificación para cada correo nuevo que llega.
+
+Caso especial:
+Si un correo podría pertenecer a varias categorías, no se descarta ninguna.
+Si no coincide con ninguna categoría conocida, se guarda en una carpeta
+"otros" o "sin clasificar".

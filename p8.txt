@@ -1,0 +1,38 @@
+PROBLEMA 8: VERIFICAR SI UNA CONTRASEÑA ES VÁLIDA
+
+Consigna:
+Una contraseña es válida si tiene al menos 8 caracteres, al menos una
+mayúscula y al menos un número. Describí el proceso de verificación completo,
+incluyendo qué mensaje mostrar si falla, y por qué motivo específico falló
+(no solo "contraseña inválida").
+
+Entradas:
+Una contraseña ingresada por el usuario.
+
+Salida:
+Un mensaje indicando si la contraseña es válida o no, y el motivo exacto
+si falla la validación.
+
+Pasos:
+1. Pedir la contraseña al usuario.
+2. Contar la cantidad total de caracteres.
+3. Verificar si la contraseña tiene al menos 8 caracteres.
+4. Revisar si hay al menos una letra mayúscula.
+5. Revisar si hay al menos un número.
+6. Si todas las condiciones se cumplen, aceptar la contraseña.
+7. Si alguna condición falla, mostrar el mensaje correspondiente.
+8. Finalizar la validación.
+
+Decisiones:
+Si la contraseña tiene menos de 8 caracteres, informar ese error.
+Si no tiene mayúsculas, informar ese error.
+Si no tiene números, informar ese error.
+Si cumple todo, la contraseña es válida.
+
+Repeticiones:
+Revisar cada carácter de la contraseña para comprobar mayúsculas y números.
+
+Caso especial:
+Si la contraseña cumple algunos requisitos pero no todos, mostrar solo los
+motivos que fallaron.
+Si la contraseña está vacía, se considera inválida por falta de caracteres.

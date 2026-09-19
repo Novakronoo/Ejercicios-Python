@@ -1,0 +1,36 @@
+PROBLEMA 10: CALCULAR EL COSTO DE UNA CHANGA DE ALBAÑILERÍA POR M²
+
+Consigna:
+Te piden presupuestar un trabajo de revestimiento. El precio varía si el
+cliente pone los materiales o los ponés vos, y varía también según el tipo de
+colocación (recta o diagonal, que cambia el desperdicio). Describí el proceso
+completo para llegar al presupuesto final.
+
+Entradas:
+La superficie total a revestir en m², el tipo de colocación, y si el cliente
+entrega o no los materiales.
+
+Salida:
+El presupuesto final del trabajo con costo de materiales y mano de obra.
+
+Pasos:
+1. Medir la superficie total a revestir.
+2. Definir si el cliente aporta los materiales o si los pone la empresa.
+3. Elegir el tipo de colocación: recta o diagonal.
+4. Calcular el desperdicio estimado según el tipo de colocación.
+5. Determinar el costo de materiales y mano de obra.
+6. Sumar los costos según la decisión de materiales y colocación.
+7. Ajustar el total final con los porcentajes o adicionales necesarios.
+8. Entregar el presupuesto final.
+
+Decisiones:
+Si el cliente pone los materiales, se descuentan del costo total.
+Si la colocación es diagonal, se considera más desperdicio y sube el costo.
+Si la colocación es recta, el desperdicio es menor.
+
+Repeticiones:
+Repetir el cálculo para cada tipo de costo y sumar el resultado final.
+
+Caso especial:
+Si la superficie es muy grande o muy pequeña, puede cambiar el costo por m².
+Si aparece un material especial, se suma como costo adicional.

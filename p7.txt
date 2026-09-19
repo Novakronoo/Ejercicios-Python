@@ -1,0 +1,23 @@
+PROBLEMA 7: ORGANIZAR TURNOS DE RIEGO PARA VARIAS PLANTAS
+
+Consigna:
+Tenés 6 plantas, cada una necesita agua cada una cantidad distinta de días
+(algunas cada 2 días, otras cada 5). Describí el proceso para decidir, cada
+mañana, cuáles plantas regar hoy.
+
+Entradas:
+
+
+Salida:
+
+
+Pasos:
+
+
+Decisiones:
+
+
+Repeticiones:
+
+
+Caso especial:

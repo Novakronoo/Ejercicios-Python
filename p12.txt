@@ -1,0 +1,23 @@
+PROBLEMA 12: TURNOS DE UN LOCAL DE COMIDA CON CAPACIDAD LIMITADA
+
+Consigna:
+Un local acepta reservas para mesas de distintos tamaños, con una capacidad total
+limitada de comensales por franja horaria. Describí el proceso para decidir si
+una nueva reserva se puede aceptar o no.
+
+Entradas:
+
+
+Salida:
+
+
+Pasos:
+
+Decisiones:
+
+
+Repeticiones:
+
+
+Caso especial:
+

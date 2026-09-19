@@ -1,0 +1,39 @@
+PROBLEMA 9: ARMAR EL ITINERARIO DE COMPRAS EN UN SUPERMERCADO POR PASILLOS
+
+Consigna:
+Tenés una lista de compras con productos de distintas categorías (verdulería,
+lácteos, limpieza). El supermercado tiene los pasillos ordenados por categoría.
+Describí el proceso para recorrer el supermercado sin pasar dos veces por el
+mismo pasillo.
+
+Entradas:
+Una lista de productos con su categoría correspondiente y una estructura de
+pasillos ordenados por categoría.
+
+Salida:
+Una ruta de compras que recorra cada pasillo necesario una sola vez.
+
+Pasos:
+1. Leer la lista de compras.
+2. Separar los productos por categoría.
+3. Identificar qué pasillos son necesarios según las categorías pedidas.
+4. Ordenar las categorías según el recorrido del supermercado.
+5. Ir al primer pasillo necesario.
+6. Tomar los productos de esa categoría.
+7. Continuar al siguiente pasillo sin repetir ninguno.
+8. Finalizar cuando se hayan retirado todos los productos.
+
+Decisiones:
+Si un producto ya fue comprado, no se vuelve a buscar en el mismo pasillo.
+Si una categoría no aparece en la lista, no se visita ese pasillo.
+Si hay varios productos de la misma categoría, se toman juntos en un solo
+recorrido.
+
+Repeticiones:
+Repetir el recorrido de pasillo en pasillo hasta completar todas las
+categorías pedidas.
+
+Caso especial:
+Si el supermercado tiene categorías que no se necesitan, no se recorren.
+Si un producto se encuentra en un pasillo distinto al esperado, se lo busca
+allí y luego se continúa con el siguiente.
