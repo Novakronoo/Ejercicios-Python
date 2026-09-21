@@ -6,20 +6,30 @@ mayúscula y al menos un número. Describí el proceso de verificación completo
 incluyendo qué mensaje mostrar si falla, y por qué motivo específico falló
 (no solo "contraseña inválida").
 
-Entradas:
+Entradas: Necesito que el usuario intente registrar una contraseña bajo estos términos: al menos 8 caracteres, 
+al menos una mayúscula y al menos un número. 
 
 
-Salida:
+Salida: Verificar si cumple con los términos establecidos y si falló informar
+el motivo de este
 
 
 Pasos:
+1.Crear una variable donde ira la contraseña ingresada por el usuario
+2.Asignar términos para esta contraseña
+3.Pedir al usuario que ingrese una contraseña
+4.Verificar que la contraseña ingresada cumpla con los términos requeridos
+5.Informar si fallo y explicar el motivo o si es correcta continua el proceso
 
 
-Decisiones:
+Decisiones: El usuario decide una contraseña
+            Si el usuario no respeta los términos se le pedirá que reingrese otra contraseña
+            Si la contraseña falla, se mostraran todos los motivos por los cuales falló
 
+Repeticiones: El sistema pide una contraseña hasta que sea valida
+              El sistema evalúa la contraseña ingresada en cada intento
 
-Repeticiones:
-
-
-Caso especial:
-
+Caso especial: Si el usuario deja la contraseña vacía se le informa que debe ingresar una
+               Si la contraseña no tiene al menos 8 caracteres, se le informa al usuario y le pide agregar caracteres
+               Si la contraseña no tiene al menos una mayúscula, se le informa al usuario y le pide agregar una mayúscula
+               Si la contraseña no tiene al menos un número, se le informa al usuario y le pide agregar un número

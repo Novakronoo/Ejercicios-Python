@@ -10,11 +10,9 @@ Entradas:
 
 Salida:
 
-
 Pasos:
 
 Decisiones:
-
 
 Repeticiones:
 

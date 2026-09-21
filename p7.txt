@@ -5,19 +5,26 @@ Tenés 6 plantas, cada una necesita agua cada una cantidad distinta de días
 (algunas cada 2 días, otras cada 5). Describí el proceso para decidir, cada
 mañana, cuáles plantas regar hoy.
 
-Entradas:
+Entradas: Necesito 6 plantas y sus días de riego, estas se riegan cada dia si es necesario
 
-
-Salida:
-
+Salida: Revisar todas las plantas y informar cuales faltan por regar, cuales no necesitan regado 
+        o ya están regadas
 
 Pasos:
+1.Registrar 6 plantas con sus tiempos de riego (cada ciertos días)
+2.Crear sistema de regado para cada dia
+3.El sistema revisa las plantas cada dia 
+4.Preguntar al usuario que planta corresponde regar hoy
+5.Recorrer las plantas para saber que plantas corresponde regar aun y cuales fueron regadas
 
+Decisiones: El usuario decide cada mañana regar una o varias plantas si es necesario
+            Cada planta necesita agua cada ciertos días ya establecidos
+            El usuario puede decidir no regar si no es necesario para la planta ese dia
 
-Decisiones:
+Repeticiones: El usuario debe decidir si regar una planta o varias cada dia si es necesario
+              El sistema debe revisar cada dia las plantas regadas y por regar y informar al usuario
 
-
-Repeticiones:
-
-
-Caso especial:
+Caso especial: Si una planta se riega mas veces de las necesarias, la planta se asfixia
+               Si el usuario decide no regar la planta que necesita agua, esta se deshidrata
+               Si un dia no hay plantas que correspondan regar, el usuario puede no regar y 
+               salta al siguiente dia
