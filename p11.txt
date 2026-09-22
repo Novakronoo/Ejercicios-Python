@@ -5,17 +5,28 @@ Llegan correos de distintos tipos: trabajo, personal, promociones, urgente.
 Describí el proceso de decisión para clasificar automáticamente cada correo que
 llega, considerando que un correo podría coincidir con más de una categoría.
 
-Entradas:
+Entradas:Necesito que ingresen correos de distintos tipos
+         Necesito una clasificación de estos correos para ciertas categorías
 
 
-Salida:
+Salida: Mostrar todos los correos clasificados por categoría
 
 
 Pasos:
+1.Crear lista para cada categoría (trabajo, personal, promociones, urgente)
+2.Pedir correos al usuario
+3.Asignar categoría/s a cada correo ingresado
+4.Guardar el correo en la/s listas correspondientes
+5.Mostrar los correos agrupados por categoría
 
-Decisiones:
+Decisiones:El Usuario ingresa correos de distintas categorías
+           El sistema clasifica cada correo con una o varias categorías 
 
 
-Repeticiones:
+Repeticiones:El sistema pide correos repetidamente hasta que el usuario lo decida
+             Cada vez que se ingresa un correo el sistema lo clasifica y guarda 
+             en las categorías correspondientes
 
-Caso especial:
+
+Caso especial: Si el usuario no ingresa ningún correo simplemente no hay correos que clasificar ni mostrar
+               Si un correo no coincide con ninguna categoría, guardarlo como “sin clasificar”.
