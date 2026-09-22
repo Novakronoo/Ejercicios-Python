@@ -6,14 +6,37 @@ lácteos, limpieza). El supermercado tiene los pasillos ordenados por categoría
 Describí el proceso para recorrer el supermercado sin pasar dos veces por el
 mismo pasillo.
 
-Entradas:
+Entradas: Necesito una lista de productos de distintas categorías
+          Necesito un supermercado con 3 pasillos ordenados por categoría
 
-Salida:
+Salida: Recorrer los pasillos y recoger los productos de la lista sin pasar
+        dos veces por el mismo pasillo
 
 Pasos:
+1.Crear una lista de compras con productos
+2.Asociar cada producto con su categoría y pasillo.
+3.Crear una lista vacía de pasillos visitados
+4.Crear sistema para selección de pasillo y pasillos visitados (para no repetir de pasillo)
+5 Recorrer las categorías en un orden determinado.
+6.Si una categoría contiene productos solicitados y su pasillo no fue visitado:
+   a. Recorrer el pasillo.
+   b. Buscar los productos solicitados de esa categoría.
+   c. Agregar los productos encontrados a la lista de comprados.
+   d. Agregar los productos no encontrados a la lista de faltantes.
+   e. Marcar el pasillo como visitado.
+7.Crear sistema para selección de productos
+8.Verificar que los productos seleccionados corresponden a los 
+  solicitados en la lista
+9.Mostrar los productos comprados y los que faltaron
 
-Decisiones:
 
-Repeticiones:
+Decisiones:El sistema le informa al usuario la lista de productos al inicio del programa
+           El sistema informa que pasillo tiene que seguir para no repetir de pasillo
+           El sistema elige el orden de los pasillos según los productos de la lista
 
-Caso especial:
+Repeticiones: El sistema repite la selección de pasillo al terminar de recoger productos de otro pasillo
+              Cada vez que se elige un producto, el sistema verifica que este en la lista
+              Repetir hasta que se recojan todos los productos de la lista
+
+Caso especial: Si el usuario no compra ningún producto se le informa al usuario que no realizó una compra
+
