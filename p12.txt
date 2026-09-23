@@ -5,13 +5,32 @@ Un local acepta reservas para mesas de distintos tamaños, con una capacidad tot
 limitada de comensales por franja horaria. Describí el proceso para decidir si
 una nueva reserva se puede aceptar o no.
 
-Entradas:
+Entradas: Necesito un local
+          Necesito mesas de distintos tamaños
+          Necesito una franja horaria limitada
+          Necesito comensales con reservas realizadas
 
 
-Salida:
+Salida: Mostrar las reservas que se aceptan, las que no y el porque
 
 
 Pasos:
+1.Crear diccionario vacío llamado comensales
+2.Crear diccionario vacío llamado reservas
+3.Crear diccionario vacío llamado mesas_ocupadas_mañana(con 4 horas)
+4.Crear diccionario vacío llamado mesas_ocupadas_tarde
+5.Crear diccionario vacío llamado mesas_ocupadas_noche
+6.Crear un diccionario llamado franjas_horarias con 3 tipos de horarios y sus horas
+(mañana(9:00 - 13:00),tarde(14:00 - 18:00), noche(19:00 - 23:00))
+7.Crear diccionario llamado local con mesas enumeradas
+(mesa1(2spots), mesa2(4spots), mesa3(6spots), mesa4(6spots))
+8.Pedir al usuario nombre, horario y hora
+9.Guardar datos en sus respectivos diccionarios
+10.
+
+
+
+
 
 Decisiones:
 
