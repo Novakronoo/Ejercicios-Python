@@ -2,20 +2,51 @@ PROBLEMA 10: CALCULAR EL COSTO DE UNA CHANGA DE ALBAÑILERÍA POR M²
 
 Consigna:
 Te piden presupuestar un trabajo de revestimiento. El precio varía si el
-cliente pone los materiales o los ponés vos, y varía también según el tipo de
+cliente pone los materiales o los pones vos, y varía también según el tipo de
 colocación (recta o diagonal, que cambia el desperdicio). Describí el proceso
 completo para llegar al presupuesto final.
 
-Entradas:
+Entradas:Necesito una obra(trabajo) de revestimiento
+         Necesito materiales 
+         Necesito un presupuesto
 
 
-Salida:
+Salida: Calcular y informar un presupuesto final
 
 
 Pasos:
+1.Crear tabla vacía con nombre pared
+2.Crear tabla vacía con nombre revestimiento
+3.Crear tabla vacía con nombre materiales_por_usar
+6.Crear tabla llamada costo_mano_obra (1m2 recto = 1hora - 1m2 diagonal = 1.5horas) cada hora vale 50usd
+7.Crear lista con materiales y sus precios por m2, unidad(bolsa)
+(Cerámica(30x60(12usd)), Binda(bolsa25kg(8usd)), Pastina(bolsa1kg(2.5usd)), Separadores(bolsa100u(2usd)))
+8.Asignar en una función la cantidad de materiales usados por m2 de pared
+(por m2: Cerámica(1.10m2), Binda(5kg), Pastina(0.5kg), Separadores(40u))
+9.Preguntar al usuario ancho y alto de la pared y guardarlo en la lista pared
+10.Calcular m2 según los datos de la lista pared y guardarlo en la lista revestimiento
+11.Calcular cantidad de materiales que se usaran según el calculo de la lista 
+revestimiento y guardarlo en materiales_por_usar
+12.Preguntar al usuario quien pondrá los materiales
+(Empresa(se cobra mano de obra + materiales) o Cliente(se cobra solo mano de obra))
+13.Preguntar al usuario si quiere revestir recto(+10% extra de cerámica(final)) o en 
+diagonal(+20% extra de cerámica y +50% mano de obra(final))
+14.Recorrer lista materiales_por_usar y informar de los materiales que se usaran
+15.Crear un sistema para calcular el presupuesto según la forma de revestir, 
+la cantidad de materiales por usar y quien los brindará
+16.Mostrar al final : m2 de la pared
+                      tipo de colocación
+                      materiales y cantidades usados
+                      costo de mano de obra
+                      costo de materiales
+                      presupuesto final
+
+
+
 
 
 Decisiones:
+
 
 Repeticiones:
 
