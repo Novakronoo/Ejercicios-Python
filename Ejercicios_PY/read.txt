@@ -1,0 +1,110 @@
+--NIVEL 1 — FÁCIL: un solo camino, sin decisiones complejas
+
+Problema 1 — Cruzar la calle de forma segura Describí, paso a paso, el proceso
+completo para cruzar una calle con semáforo de forma segura, desde que llegás a
+la esquina hasta que estás del otro lado.
+
+Problema 2 — Preparar un mate (o un café, si preferís) Detallá el proceso
+completo, desde juntar los materiales hasta el primer sorbo. Pensá qué pasa si
+te falta algún ingrediente a mitad de camino.
+
+Problema 3 — Calcular el vuelto de una compra Alguien paga con un billete de
+cierto valor una compra de cierto monto. Describí cómo calcular cuánto vuelto
+darle, y qué debería pasar si el billete no alcanza para cubrir la compra.
+
+Problema 4 — Armar una valija para un viaje de 3 días Pensá el proceso de
+decisión para elegir qué ropa llevar, considerando que el clima puede variar
+entre los días. ¿Cómo decidís cuánta ropa es "suficiente" sin pasarte?
+
+Problema 5 — Ordenar una fila de herramientas por tamaño Tenés una fila de
+herramientas de tamaños distintos, desordenadas. Describí un proceso paso a paso
+para ordenarlas de la más chica a la más grande, sin usar ningún truco mágico —
+solo comparaciones de a una por vez.
+
+Pista de enfoque (no la solución): Pensá cómo ordenarías físicamente objetos
+sobre una mesa, sin herramientas, solo comparando de a dos.
+
+
+
+--NIVEL 2 — MEDIO: con decisiones y repeticiones
+
+Problema 6 — Dividir la cuenta de un asado entre amigos Un grupo de amigos fue a
+comprar para un asado. Cada uno gastó un monto distinto. Al final, todos tienen
+que terminar habiendo puesto lo mismo. Describí el proceso para calcular quién
+le debe plata a quién, y cuánto.
+
+Problema 7 — Organizar turnos de riego para varias plantas Tenés 6 plantas, cada
+una necesita agua cada una cantidad distinta de días (algunas cada 2 días, otras
+cada 5). Describí el proceso para decidir, cada mañana, cuáles plantas regar
+hoy.
+
+Problema 8 — Verificar si una contraseña es válida Una contraseña es válida si
+tiene al menos 8 caracteres, al menos una mayúscula, y al menos un número.
+Describí el proceso de verificación completo, incluyendo qué mensaje mostrar si
+falla, y por qué motivo específico falló (no solo "contraseña inválida").
+
+Problema 9 — Armar el itinerario de compras en un supermercado por pasillos
+Tenés una lista de compras con productos de distintas categorías (verdulería,
+lácteos, limpieza). El supermercado tiene los pasillos ordenados por categoría.
+Describí el proceso para recorrer el supermercado sin pasar dos veces por el
+mismo pasillo.
+
+Problema 10 — Calcular el costo de una changa de albañilería por m² Te piden
+presupuestar un trabajo de revestimiento. El precio varía si el cliente pone los
+materiales o los ponés vos, y varía también según el tipo de colocación (recta o
+diagonal, que cambia el desperdicio). Describí el proceso completo para llegar
+al presupuesto final.
+
+Pista de enfoque (no la solución): Esto se conecta directo con tu idea del
+presupuestador — pensalo en serio, te sirve para el proyecto real.
+
+Problema 11 — Clasificar el correo entrante en carpetas Llegan correos de
+distintos tipos: trabajo, personal, promociones, urgente. Describí el proceso de
+decisión para clasificar automáticamente cada correo que llega, considerando que
+un correo podría coincidir con más de una categoría.
+
+Problema 12 — Turnos de un local de comida con capacidad limitada Un local
+acepta reservas para mesas de distintos tamaños, con una capacidad total
+limitada de comensales por franja horaria. Describí el proceso para decidir si
+una nueva reserva se puede aceptar o no.
+
+
+
+--NIVEL 3 — DIFÍCIL: varios pasos combinados, casos especiales reales
+
+Problema 13 — Categorizar automáticamente los gastos de un ticket de compra Un
+ticket de supermercado tiene varios productos con precios. Cada producto
+pertenece a una categoría (comida, limpieza, higiene). Describí el proceso
+completo para leer un ticket completo (varios productos) y devolver un resumen:
+cuánto se gastó en total por cada categoría. Pensá qué hacer con un producto que
+no reconocés.
+
+Problema 14 — Armar un cronograma de obra con tareas dependientes En una
+construcción, algunas tareas no pueden empezar hasta que otra termine (no podés
+pintar una pared antes de levantarla). Tenés una lista de tareas, cada una con
+una duración y de qué otras tareas depende. Describí el proceso para calcular el
+orden en que deben hacerse, y el tiempo total mínimo de la obra.
+
+Problema 15 — Detectar gastos duplicados en una lista de transacciones Tenés una
+lista de gastos con fecha, monto y descripción. A veces, por error, el mismo
+gasto queda cargado dos veces. Describí el proceso para detectar posibles
+duplicados, considerando que dos gastos distintos podrían tener el mismo monto
+por coincidencia (no todo gasto con el mismo monto es un duplicado real).
+
+Problema 16 — Optimizar la compra de materiales según el stock de distintos
+proveedores Necesitás una cantidad de cerámicos para un trabajo. Dos proveedores
+distintos tienen stock parcial cada uno, a precios distintos, y uno de ellos
+tiene un costo de envío fijo. Describí el proceso para decidir dónde comprar (o
+si conviene combinar ambos) para gastar lo menos posible.
+
+Problema 17 — Armar grupos de trabajo balanceados Tenés una lista de personas,
+cada una con un nivel de experiencia (junior, medio, senior). Necesitás formar
+equipos de 3 personas cada uno, de forma que cada equipo quede lo más balanceado
+posible en experiencia total. Describí el proceso de armado de los equipos.
+
+Problema 18 — Validar que un presupuesto de construcción es coherente antes de
+enviarlo Antes de mandarle un presupuesto a un cliente, querés que el sistema
+revise automáticamente si hay algo raro: una cantidad de material que parece
+excesiva para el m² declarado, un ítem con precio en cero, o un total que no
+coincide con la suma de los ítems. Describí el proceso de validación completo, y
+qué debería pasar en cada tipo de error encontrado.

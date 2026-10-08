@@ -1,0 +1,26 @@
+PROBLEMA 3: CALCULAR EL VUELTO DE UNA COMPRA
+
+Consigna:
+Alguien paga una compra con un billete de cierto valor. Describí cómo
+calcular cuánto vuelto darle y qué debería pasar si el billete no alcanza
+para cubrir la compra.
+
+Entradas: Necesito un producto con un precio el cual alguien paga con un billete de cierto valor
+
+Salidas: Entregar el producto y el vuelto o rechazar la compra según condiciones del pago
+
+Pasos:
+1.Tener un producto con un precio
+2.Recibir el billete
+3.Verificar valor del Billete
+4.Verificar autenticidad del Billete
+5.Calcular vuelto (valor del billete - precio del producto)
+6.Devolver vuelto
+
+Decisiones: Si el billete no alcanza para cubrir la compra se advierte al cliente y se espera 
+a que este cambie o agregue otro billete, de no cambiarlo o agregar, se cancela la compra
+
+Repeticiones: Mientras el pago no alcance, se solicita otro billete o se agrega dinero hasta 
+llegar al monto total
+
+Caso especial: Si el billete es falso se cancela la compra
