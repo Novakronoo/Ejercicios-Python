@@ -1,0 +1,25 @@
+PROBLEMA 2: PREPARAR UN MATE O UN CAFÉ
+
+Consigna:
+Detallá el proceso completo, desde juntar los materiales hasta el primer
+sorbo. Pensá qué pasa si falta algún ingrediente a mitad de camino.
+
+Entradas: Necesito una taza en donde colocar los ingredientes, los cuales son, agua,
+café y azúcar y una cuchara para mezclar
+
+Salida: Al final Necesito probar mi café con un sorbo
+
+Pasos:
+1.Seleccionar una taza
+2.Ingresar la cantidad de agua
+3.Calentar el agua
+4.Ingresar la cantidad de café
+5.Ingresar azúcar a gusto
+6.Probar el café
+
+Decisiones: Si desea un café frio, debe saltarse el paso de calentar el agua
+
+Repeticiones: Agregar azúcar y probar hasta alcanzar el sabor deseado
+
+Caso especial: Si nos falta azúcar podemos usar edulcorante. Si falta café, se debe conseguir
+mas o preparar otra bebida
